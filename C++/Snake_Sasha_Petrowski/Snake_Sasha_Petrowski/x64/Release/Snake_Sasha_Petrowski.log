@@ -1,0 +1,2 @@
+﻿  Snake_Sasha_Petrowski.cpp
+C:\Users\PC\source\repos\Snake_Sasha_Petrowski\Snake_Sasha_Petrowski\Snake_Sasha_Petrowski.cpp(1,10): fatal error C1083: Impossible d'ouvrir le fichier include : 'SFML/Graphics.hpp' : No such file or directory

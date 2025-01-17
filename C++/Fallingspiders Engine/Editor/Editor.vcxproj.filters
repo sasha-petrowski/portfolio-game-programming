@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Fichiers sources">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Fichiers de ressources">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Gameobjects">
+      <UniqueIdentifier>{5796684a-a53e-49e1-ae37-053d87d3ac4d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Gameobjects\Systems">
+      <UniqueIdentifier>{d6394bae-a1d1-4f46-8059-f417c3c1ed34}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Gameobjects">
+      <UniqueIdentifier>{f970c162-7729-46d6-a0db-a25b021dd4c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Gameobjects\Systems">
+      <UniqueIdentifier>{7028a306-8a10-46b3-b90f-24828cec2f30}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="DebugSystem.cpp">
+      <Filter>Fichiers sources\Gameobjects\Systems</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneSystem.cpp">
+      <Filter>Fichiers sources\Gameobjects\Systems</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DebugSystem.h">
+      <Filter>Fichiers d%27en-tête\Gameobjects\Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneSystem.h">
+      <Filter>Fichiers d%27en-tête\Gameobjects\Systems</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

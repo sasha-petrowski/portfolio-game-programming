@@ -1,0 +1,258 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Fichiers sources">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Fichiers de ressources">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Voxels">
+      <UniqueIdentifier>{60e4f40a-e470-457a-8f2c-f74248a7ba81}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Voxels\Chunks">
+      <UniqueIdentifier>{7ebc3359-8a62-493a-93a0-098e6256dfec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Voxels">
+      <UniqueIdentifier>{9ecb4037-33f0-43f9-bd1e-84a94ea17e21}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Voxels\Chunks">
+      <UniqueIdentifier>{ad076e01-4897-4dbf-87e5-d389aa98105b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Utility">
+      <UniqueIdentifier>{ff659ce0-2f0b-4242-bd9d-6074fa9fc9b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Utility">
+      <UniqueIdentifier>{9395379b-f7e2-4a58-af79-c874ff3d75de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Voxels\Behaviours">
+      <UniqueIdentifier>{75b32e68-42ae-4f65-acc3-d73359817b27}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Voxels\Logics">
+      <UniqueIdentifier>{5e8ceaf1-9b4d-40e2-bfe7-70e01f08b997}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Voxels\Logics">
+      <UniqueIdentifier>{60a19992-3310-45d2-be06-d6ce6dc28ad6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Voxels\Behaviours">
+      <UniqueIdentifier>{7fe5df3e-5c51-4558-afb4-0031477b3876}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Utility\Math">
+      <UniqueIdentifier>{695db5f8-2334-47bf-adbd-f63762479072}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Utility\Math">
+      <UniqueIdentifier>{37c3d970-9268-4adc-b93d-ab8f80cc6685}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Color">
+      <UniqueIdentifier>{1b83e746-3a23-4e1e-bc35-bab9bd736c81}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Color">
+      <UniqueIdentifier>{2f3d76d2-25a7-45ac-bb0c-383fe0d0a40c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Utility\Noise">
+      <UniqueIdentifier>{d4d37dc4-41d1-4b05-8f24-1e6894682cf3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Utility\Noise">
+      <UniqueIdentifier>{86caa94f-3666-4414-8652-25cb10ceedf7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Voxels\Chunks\Cluster">
+      <UniqueIdentifier>{72e2f138-cb60-4144-bdd4-891add81b5c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Voxels\Chunks\Cluster">
+      <UniqueIdentifier>{8220439d-b0d2-4fe0-8327-d0cc77993f56}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Gameobjects">
+      <UniqueIdentifier>{819ee703-38f4-4237-9225-d657b250dcd8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Voxels\Reactions">
+      <UniqueIdentifier>{587b3632-b65b-4c1a-bff0-737dca72cdad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Voxels\Reactions">
+      <UniqueIdentifier>{6d95a292-6803-47af-877f-1413856eb446}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Game.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Random.cpp">
+      <Filter>Fichiers sources\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="Chunk.cpp">
+      <Filter>Fichiers sources\Voxels\Chunks</Filter>
+    </ClCompile>
+    <ClCompile Include="VoxelData.cpp">
+      <Filter>Fichiers sources\Voxels</Filter>
+    </ClCompile>
+    <ClCompile Include="GravityLogic.cpp">
+      <Filter>Fichiers sources\Voxels\Logics</Filter>
+    </ClCompile>
+    <ClCompile Include="DefaultVoxels.cpp">
+      <Filter>Fichiers sources\Voxels</Filter>
+    </ClCompile>
+    <ClCompile Include="Voxel.cpp">
+      <Filter>Fichiers sources\Voxels</Filter>
+    </ClCompile>
+    <ClCompile Include="LiquidLogic.cpp">
+      <Filter>Fichiers sources\Voxels\Logics</Filter>
+    </ClCompile>
+    <ClCompile Include="FreefallBehaviour.cpp">
+      <Filter>Fichiers sources\Voxels\Behaviours</Filter>
+    </ClCompile>
+    <ClCompile Include="RandomGrayscaleTemplate.cpp">
+      <Filter>Fichiers sources\Color</Filter>
+    </ClCompile>
+    <ClCompile Include="FixedColorTemplate.cpp">
+      <Filter>Fichiers sources\Color</Filter>
+    </ClCompile>
+    <ClCompile Include="SimplexNoise.cpp">
+      <Filter>Fichiers sources\Utility\Noise</Filter>
+    </ClCompile>
+    <ClCompile Include="NoisyHexagonTemplate.cpp">
+      <Filter>Fichiers sources\Color</Filter>
+    </ClCompile>
+    <ClCompile Include="Mathf.cpp">
+      <Filter>Fichiers sources\Utility\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector2.cpp">
+      <Filter>Fichiers sources\Utility\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="World.cpp">
+      <Filter>Fichiers sources\Voxels\Chunks\Cluster</Filter>
+    </ClCompile>
+    <ClCompile Include="TiledBackgroundTemplate.cpp">
+      <Filter>Fichiers sources\Color</Filter>
+    </ClCompile>
+    <ClCompile Include="Input.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="HeatReaction.cpp">
+      <Filter>Fichiers sources\Voxels\Reactions</Filter>
+    </ClCompile>
+    <ClCompile Include="GasLogic.cpp">
+      <Filter>Fichiers sources\Voxels\Logics</Filter>
+    </ClCompile>
+    <ClCompile Include="VoxelLogic.cpp">
+      <Filter>Fichiers sources\Voxels\Logics</Filter>
+    </ClCompile>
+    <ClCompile Include="VaporLogic.cpp">
+      <Filter>Fichiers sources\Voxels\Logics</Filter>
+    </ClCompile>
+    <ClCompile Include="ParticleLogic.cpp">
+      <Filter>Fichiers sources\Voxels\Logics</Filter>
+    </ClCompile>
+    <ClCompile Include="BurnReaction.cpp">
+      <Filter>Fichiers sources\Voxels\Reactions</Filter>
+    </ClCompile>
+    <ClCompile Include="LerpColorTemplate.cpp">
+      <Filter>Fichiers sources\Color</Filter>
+    </ClCompile>
+    <ClCompile Include="BurnChanceReaction.cpp">
+      <Filter>Fichiers sources\Voxels\Reactions</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Game.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Chunk.h">
+      <Filter>Fichiers d%27en-tête\Voxels\Chunks</Filter>
+    </ClInclude>
+    <ClInclude Include="Random.h">
+      <Filter>Fichiers d%27en-tête\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="VoxelData.h">
+      <Filter>Fichiers d%27en-tête\Voxels</Filter>
+    </ClInclude>
+    <ClInclude Include="VoxelLogic.h">
+      <Filter>Fichiers d%27en-tête\Voxels\Logics</Filter>
+    </ClInclude>
+    <ClInclude Include="VoxelBehaviour.h">
+      <Filter>Fichiers d%27en-tête\Voxels\Behaviours</Filter>
+    </ClInclude>
+    <ClInclude Include="GravityLogic.h">
+      <Filter>Fichiers d%27en-tête\Voxels\Logics</Filter>
+    </ClInclude>
+    <ClInclude Include="DefaultVoxels.h">
+      <Filter>Fichiers d%27en-tête\Voxels</Filter>
+    </ClInclude>
+    <ClInclude Include="Voxel.h">
+      <Filter>Fichiers d%27en-tête\Voxels</Filter>
+    </ClInclude>
+    <ClInclude Include="LiquidLogic.h">
+      <Filter>Fichiers d%27en-tête\Voxels\Logics</Filter>
+    </ClInclude>
+    <ClInclude Include="FreefallBehaviour.h">
+      <Filter>Fichiers d%27en-tête\Voxels\Behaviours</Filter>
+    </ClInclude>
+    <ClInclude Include="ColorTemplate.h">
+      <Filter>Fichiers d%27en-tête\Color</Filter>
+    </ClInclude>
+    <ClInclude Include="RandomGrayscaleTemplate.h">
+      <Filter>Fichiers d%27en-tête\Color</Filter>
+    </ClInclude>
+    <ClInclude Include="FixedColorTemplate.h">
+      <Filter>Fichiers d%27en-tête\Color</Filter>
+    </ClInclude>
+    <ClInclude Include="SimplexNoise.h">
+      <Filter>Fichiers d%27en-tête\Utility\Noise</Filter>
+    </ClInclude>
+    <ClInclude Include="NoisyHexagonTemplate.h">
+      <Filter>Fichiers d%27en-tête\Color</Filter>
+    </ClInclude>
+    <ClInclude Include="Mathf.h">
+      <Filter>Fichiers d%27en-tête\Utility\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector2.h">
+      <Filter>Fichiers d%27en-tête\Utility\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Cluster.h">
+      <Filter>Fichiers d%27en-tête\Voxels\Chunks\Cluster</Filter>
+    </ClInclude>
+    <ClInclude Include="World.h">
+      <Filter>Fichiers d%27en-tête\Voxels\Chunks\Cluster</Filter>
+    </ClInclude>
+    <ClInclude Include="TiledBackgroundTemplate.h">
+      <Filter>Fichiers d%27en-tête\Color</Filter>
+    </ClInclude>
+    <ClInclude Include="Input.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="GameSystem.h">
+      <Filter>Fichiers d%27en-tête\Gameobjects</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>Fichiers d%27en-tête\Gameobjects</Filter>
+    </ClInclude>
+    <ClInclude Include="VoxelReaction.h">
+      <Filter>Fichiers d%27en-tête\Voxels\Reactions</Filter>
+    </ClInclude>
+    <ClInclude Include="HeatReaction.h">
+      <Filter>Fichiers d%27en-tête\Voxels\Reactions</Filter>
+    </ClInclude>
+    <ClInclude Include="GasLogic.h">
+      <Filter>Fichiers d%27en-tête\Voxels\Logics</Filter>
+    </ClInclude>
+    <ClInclude Include="VaporLogic.h">
+      <Filter>Fichiers d%27en-tête\Voxels\Logics</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticleLogic.h">
+      <Filter>Fichiers d%27en-tête\Voxels\Logics</Filter>
+    </ClInclude>
+    <ClInclude Include="BurnReaction.h">
+      <Filter>Fichiers d%27en-tête\Voxels\Reactions</Filter>
+    </ClInclude>
+    <ClInclude Include="LerpColorTemplate.h">
+      <Filter>Fichiers d%27en-tête\Color</Filter>
+    </ClInclude>
+    <ClInclude Include="BurnChanceReaction.h">
+      <Filter>Fichiers d%27en-tête\Voxels\Reactions</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

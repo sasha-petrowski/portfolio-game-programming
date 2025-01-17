@@ -9,13 +9,13 @@
 
 ## Mes competences​
 >
-> | Languages | Logiciels de jeux
+> | Languages | Moteurs de jeux
 > |-----------|-----------
 > |Anglais​    |Unity
 > |C​#         |Unreal
-> |C++        |GameMaker
-> |C  ​        |Pygame
-> |Python​     |
+> |C++        |Custom
+> |C  ​        |GameMaker
+> |Python​     |Pygame
 > |Java​       |
 > |SQL​        |
 > |HTML       |
@@ -57,12 +57,15 @@
 >
 > - Un jeux de jam que nous avons fait avec un ami pour une jam de Vampire Survivor-Like.
 >
-> ### GameMaker
+> ### C++
 >
-> #### Wanderer
+> #### Fallingspiders Engine (simulation de sable)
 >
-> - Un Shoot'em all en vue du dessus.  
-> Dans Wanderer le joueur incarne un vaisseau qui doit survivre à des vagues incessantes d'ennemis et de projectiles, tout en gagnant de plus en plus de puissance en augmentant son KillStreak.
+> - Un projet d'automate cellulaire s'inspirant du jeux Noita et de son monde en voxel simulés. Fait avec SDL2.
+>
+> #### Snake automatique
+>
+> - Un simple projet de snake automatique. Fait avec SFML.
 >
 > ### C
 >
@@ -74,6 +77,13 @@
 > #### Projet réseaux socket
 >
 > - Un projet qui reprend une version antérieure du projet précédent et inclus la communication par IP socket.
+>
+> ### GameMaker
+>
+> #### Wanderer
+>
+> - Un Shoot'em all en vue du dessus.  
+> Dans Wanderer le joueur incarne un vaisseau qui doit survivre à des vagues incessantes d'ennemis et de projectiles, tout en gagnant de plus en plus de puissance en augmentant son KillStreak.
 >
 > ### Java
 >
